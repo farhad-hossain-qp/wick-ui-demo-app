@@ -1,0 +1,150 @@
+.details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: repeating-linear-gradient(
+      90deg,
+      hsla(196, 0%, 79%, 0.06) 0px,
+      hsla(196, 0%, 79%, 0.06) 1px,
+      transparent 1px,
+      transparent 96px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(196, 0%, 79%, 0.06) 0px,
+      hsla(196, 0%, 79%, 0.06) 1px,
+      transparent 1px,
+      transparent 96px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(196, 0%, 79%, 0.09) 0px,
+      hsla(196, 0%, 79%, 0.09) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(196, 0%, 79%, 0.09) 0px,
+      hsla(196, 0%, 79%, 0.09) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  border-radius: 10px;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pokemon-name {
+  font-size: 36px;
+  font-weight: bold;
+  color: #34495e;
+  text-transform: capitalize;
+}
+
+.sprites {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sprite {
+  width: 100px;
+  height: 100px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.types {
+  display: flex;
+  gap: 10px;
+}
+
+.type-badge {
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.type-badge.fire {
+  background-color: #f08030;
+}
+
+.type-badge.water {
+  background-color: #6890f0;
+}
+
+.type-badge.grass {
+  background-color: #78c850;
+}
+
+.type-badge.electric {
+  background-color: #f8d030;
+}
+
+.type-badge.ice {
+  background-color: #98d8d8;
+}
+
+.type-badge.rock {
+  background-color: #b8a038;
+}
+
+.type-badge.psychic {
+  background-color: #f85888;
+}
+
+.type-badge.dark {
+  background-color: #705848;
+}
+.type-badge.normal {
+  background-color: #413d3e;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.moves {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.move {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
