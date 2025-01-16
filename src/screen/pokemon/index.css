@@ -1,0 +1,21 @@
+/* PokemonTable.css */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.space {
+  height: 20px; /* Adjust height as needed */
+}
+.wu-table-container {
+  width: 50%;
+}
