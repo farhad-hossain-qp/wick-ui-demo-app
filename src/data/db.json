@@ -1,0 +1,345 @@
+{
+  "user": {
+    "firstName": "Farhad",
+    "lastName": "Hossain",
+    "emailAddress": "farhad.hossain@questionpro.com",
+    "initials": "FH",
+    "profilePic": "",
+    "isAdmin": true,
+    "userId": 5796837,
+    "orgId": 5631529,
+    "userApiKey": "ca4bceee-e397-45e8-a70b-e666bcfe7e6b",
+    "primaryUserApiKey": "ca4bceee-e397-45e8-a70b-e666bcfe7e6b",
+    "isPrimaryUser": true,
+    "headerInfo": [
+      {
+        "productSwitcher": {
+          "categories": [
+            {
+              "name": "Research Suite",
+              "active": true,
+              "logo": "https://admin.questionpro.com/images/appnavigation/research-suite.svg",
+              "order": 1,
+              "desc": "",
+              "products": [
+                {
+                  "name": "Surveys",
+                  "icon": "e308",
+                  "link": "https://admin.questionpro.com/a/listSurveys.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/survey-product.png",
+                  "order": 1
+                },
+                {
+                  "name": "Communities",
+                  "icon": "e314",
+                  "link": "https://admin.questionpro.com/a/showPanelManagement.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/communities-product.png",
+                  "order": 2
+                },
+                {
+                  "name": "Audience",
+                  "icon": "e309",
+                  "link": "https://admin.questionpro.com/a/showAudience.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/audience-product.png",
+                  "order": 3
+                },
+                {
+                  "name": "Instant Answers",
+                  "icon": "e380",
+                  "link": "https://instantanswers.questionpro.com?appOrigin=https://admin.questionpro.com",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/instant-answers-product-icon.png",
+                  "order": 4
+                },
+                {
+                  "name": "InsightsHub",
+                  "icon": "e317",
+                  "link": "https://insightshub.questionpro.com?appOrigin=https://admin.questionpro.com",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/insightshub-product.png",
+                  "order": 5
+                },
+                {
+                  "name": "Digsite",
+                  "icon": "e352",
+                  "link": "https://admin.questionpro.com/a/showDigsite.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/digsite-product.svg",
+                  "order": 6
+                }
+              ]
+            },
+            {
+              "name": "Customer Experience",
+              "active": true,
+              "logo": "https://admin.questionpro.com/images/appnavigation/customer-experience.svg",
+              "order": 2,
+              "desc": "",
+              "products": [
+                {
+                  "name": "CX",
+                  "icon": "e313",
+                  "link": "https://admin.questionpro.com/a/showCXFeedback.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/cx-product.png",
+                  "order": 1
+                },
+                {
+                  "name": "Surveys",
+                  "icon": "e308",
+                  "link": "https://admin.questionpro.com/a/listSurveys.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/survey-product.png",
+                  "order": 2
+                },
+                {
+                  "name": "Reputation",
+                  "icon": "e316",
+                  "link": "https://admin.questionpro.com/a/showReputation.do?appOrigin=https://admin.questionpro.com",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/reputation-product.png",
+                  "order": 3
+                },
+                {
+                  "name": "Outerloop",
+                  "icon": "e309",
+                  "link": "https://outerloop.questionpro.com?appOrigin=https://admin.questionpro.com",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/outer-loop-product.png",
+                  "order": 4
+                },
+                {
+                  "name": "Closedloop",
+                  "icon": "e329",
+                  "link": "https://admin.questionpro.com/a/showCLF.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/clf-product.png",
+                  "order": 5
+                },
+                {
+                  "name": "Intercept",
+                  "icon": "e378",
+                  "link": "https://admin.questionpro.com/a/showIntercept.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/intercept-product.svg",
+                  "order": 6
+                },
+                {
+                  "name": "Journey Management",
+                  "icon": "e382",
+                  "link": "https://admin.questionpro.com/a/showSuiteCX.do?appOrigin=https://admin.questionpro.com",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/suite-cx-product-icon.png",
+                  "order": 7
+                }
+              ]
+            },
+            {
+              "name": "Workforce",
+              "active": true,
+              "logo": "https://admin.questionpro.com/images/appnavigation/workforce.svg",
+              "order": 3,
+              "desc": "",
+              "products": [
+                {
+                  "name": "Workforce",
+                  "icon": "e315",
+                  "link": "https://admin.questionpro.com/a/listMyFlashletSurveys.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/workforce-product.png",
+                  "order": 1
+                },
+                {
+                  "name": "Surveys",
+                  "icon": "e308",
+                  "link": "https://admin.questionpro.com/a/listSurveys.do",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/survey-product.png",
+                  "order": 2
+                },
+                {
+                  "name": "Empower",
+                  "icon": "e324",
+                  "link": "https://empower.questionpro.com?appOrigin=https://admin.questionpro.com",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/empower-product.svg",
+                  "order": 3
+                }
+              ]
+            },
+            {
+              "name": "Business Intelligence",
+              "active": true,
+              "logo": "https://admin.questionpro.com/images/appnavigation/bi-product.svg",
+              "order": 4,
+              "desc": "",
+              "products": [
+                {
+                  "name": "BI",
+                  "icon": "e381",
+                  "link": "https://bi.questionpro.com?appOrigin=https://admin.questionpro.com",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/bi-product-icon.png",
+                  "order": 1
+                }
+              ]
+            },
+            {
+              "name": "Engagement Tools",
+              "active": true,
+              "logo": "https://admin.questionpro.com/images/appnavigation/free-package.svg",
+              "order": 5,
+              "desc": "",
+              "products": [
+                {
+                  "name": "LivePolls",
+                  "icon": "e311",
+                  "link": "https://livepolls.questionpro.com?appOrigin=https://admin.questionpro.com",
+                  "active": true,
+                  "logo": "https://admin.questionpro.com/images/appnavigation/live-polls-product.png",
+                  "order": 1
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "myAccount": {
+          "license": {
+            "expiryDate": "Apr 02, 2025",
+            "expiryAfterQuarter": false,
+            "expiryDatePostFixString": "Days Left",
+            "subtitle": "Employee Edition",
+            "showExpiryDate": true,
+            "title": "UPGRADE ACCOUNT",
+            "upgradeLink": true,
+            "currentLicenseExpiryDays": 77,
+            "url": "https://admin.questionpro.com/a/showUpgradeUser.do?payment=RecurringOrder",
+            "expiryBeforeTwoMonth": false
+          },
+          "settings": [
+            {
+              "canDisplay": true,
+              "displayIcon": true,
+              "icon": "fa fa-cogs f13 text-center icon-dimen",
+              "title": "My Account",
+              "betaIconHTML": "",
+              "url": "https://admin.questionpro.com/a/showUpgradeUser.do?payment=creditCardUpdate"
+            },
+            {
+              "canDisplay": true,
+              "displayIcon": false,
+              "title": "Organization",
+              "betaIconHTML": "",
+              "url": "https://admin.questionpro.com/a/showUsers.do"
+            },
+            {
+              "canDisplay": true,
+              "displayIcon": false,
+              "title": "Compliance",
+              "betaIconHTML": "",
+              "url": "https://admin.questionpro.com/a/showCanSpamCompliance.do"
+            },
+            {
+              "canDisplay": true,
+              "displayIcon": false,
+              "title": "Issue Tracker",
+              "betaIconHTML": "",
+              "url": "https://admin.questionpro.com/a/showIssueTracker.do"
+            },
+            {
+              "canDisplay": true,
+              "displayIcon": false,
+              "title": "Global Settings",
+              "betaIconHTML": "",
+              "url": "https://admin.questionpro.com/a/showUpgradeUser.do?payment=creditCardUpdate"
+            },
+            {
+              "canDisplay": false,
+              "displayIcon": false,
+              "title": "Partner CRM",
+              "betaIconHTML": "",
+              "url": "https://admin.questionpro.com/a/showPartnerCRM.do"
+            },
+            {
+              "canDisplay": true,
+              "displayIcon": false,
+              "title": "Integrations",
+              "betaIconHTML": "",
+              "url": "https://admin.questionpro.com/a/showIntegrations.do"
+            }
+          ],
+          "profile": {
+            "sentimentIndustry": "generic",
+            "profilePicture": "",
+            "initials": "FH",
+            "subtitle": "farhad.hossain@questionpro.com",
+            "companyName": "Untitled",
+            "title": "Farhad Hossain",
+            "url": "https://admin.questionpro.com/a/showUpgradeUser.do?payment=creditCardUpdate"
+          },
+          "usage": {
+            "collectedResponseCount": "29",
+            "displayResponseProgressBar": false,
+            "title": "Usage",
+            "url": "https://admin.questionpro.com/a/usageDashboard.do",
+            "responseCountPercentage": -2900
+          },
+          "invoice": {
+            "size": 0,
+            "title": "Billing & Invoices",
+            "url": "https://admin.questionpro.com/a/showUpgradeUser.do?payment=PaymentHistory"
+          },
+          "issueTrackerCount": 0
+        }
+      }
+    ]
+  },
+
+  "surveys": [
+    {
+      "id": 12664837,
+      "userId": 5796837,
+      "folderId": 0,
+      "name": "Survey for theme and topic",
+      "type": 0,
+      "creationDate": "2024-12-01T07:00:00.000Z",
+      "responseCount": 14,
+      "description": "Survey for theme and topic"
+    },
+    {
+      "id": 12637590,
+      "userId": 5796837,
+      "folderId": 0,
+      "name": "Pathos survey",
+      "type": 0,
+      "creationDate": "2024-11-19T07:00:00.000Z",
+      "responseCount": 6,
+      "description": "Survey for theme and topic"
+    },
+    {
+      "id": 12615738,
+      "userId": 5796837,
+      "folderId": 0,
+      "name": "Survey 2",
+      "type": 0,
+      "creationDate": "2024-11-11T07:00:00.000Z",
+      "responseCount": 53,
+      "description": "Survey for theme and topic"
+    },
+    {
+      "id": 12139126,
+      "userId": 5796837,
+      "folderId": 0,
+      "name": "Survey demo",
+      "type": 0,
+      "creationDate": "2024-05-05T07:00:00.000Z",
+      "responseCount": 6,
+      "description": "Survey for theme and topic"
+    }
+  ]
+}
