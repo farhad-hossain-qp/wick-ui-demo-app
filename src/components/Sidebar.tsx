@@ -4,6 +4,7 @@ const sideMenu = [
   { key: "pathos-ai", route: "/pathos-ai", name: "Pathos AI" },
   { key: "bi-dashboard", route: "/bi-dashboard", name: "Bi Dashboard" },
   { key: "survey", route: "/survey", name: "Survey" },
+  { key: "pokemon", route: "/pokemon", name: "Pokemon" },
 ];
 
 export const Sidebar: React.FC = () => {
