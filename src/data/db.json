@@ -338,8 +338,66 @@
       "name": "Survey demo",
       "type": 0,
       "creationDate": "2024-05-05T07:00:00.000Z",
-      "responseCount": 6,
-      "description": "Survey for theme and topic"
+      "responseCount": 2,
+      "description": "he concept of lifelong learning is not new, but its importance has grown exponentially in recent years. As industries evolve and job markets shift, skills that were once considered cutting-edge can become obsolete almost overnight. For example, think about the rise of automation and artificial intelligence (AI). These technologies have revolutionized industries ranging from manufacturing to healthcare, and they are projected to replace many traditional jobs in the coming decades. This trend underscores the urgent need for individuals to continuously adapt and acquire new skills to remain relevant in their fields. he concept of lifelong learning is not new, but its importance has grown exponentially in recent years. As industries evolve and job markets shift, skills that were once considered cutting-edge can become obsolete almost overnight. For example, think about the rise of automation and artificial intelligence (AI). These technologies have revolutionized industries ranging from manufacturing to healthcare, and they are projected to replace many traditional jobs in the coming decades. This trend underscores the urgent need for individuals to continuously adapt and acquire new skills to remain relevant in their fields. he concept of lifelong learning is not new, but its importance has grown exponentially in recent years. As industries evolve and job markets shift, skills that were once considered cutting-edge can become obsolete almost overnight. For example, think about the rise of automation and artificial intelligence (AI). These technologies have revolutionized industries ranging from manufacturing to healthcare, and they are projected to replace many traditional jobs in the coming decades. This trend underscores the urgent need for individuals to continuously adapt and acquire new skills to remain relevant in their fields. he concept of lifelong learning is not new, but its importance has grown exponentially in recent years. As industries evolve and job markets shift, skills that were once considered cutting-edge can become obsolete almost overnight. For example, think about the rise of automation and artificial intelligence (AI). These technologies have revolutionized industries ranging from manufacturing to healthcare, and they are projected to replace many traditional jobs in the coming decades. This trend underscores the urgent need for individuals to continuously adapt and acquire new skills to remain relevant in their fields."
+    }
+  ],
+  "dashboards": [
+    {
+      "id": 43543543,
+      "userId": 5796837,
+      "creationDate": "2024-12-17T04:47:49.000Z",
+      "datasourceType": "Survey",
+      "datasourceId": 12664837,
+      "name": "Pathos"
+    },
+    {
+      "id": 43543542,
+      "userId": 5796837,
+      "creationDate": "2024-12-02T10:12:47.000Z",
+      "datasourceType": "Survey",
+      "datasourceId": 12664837,
+      "name": "New dashboard"
+    },
+    {
+      "userId": 5796837,
+      "id": 43543541,
+      "creationDate": "2024-11-15T09:30:25.000Z",
+      "datasourceType": "Survey",
+      "datasourceId": 12665000,
+      "name": "This is test"
+    },
+    {
+      "id": 43544542,
+      "userId": 5796837,
+      "creationDate": "2024-10-10T12:45:00.000Z",
+      "datasourceType": "Survey",
+      "datasourceId": 12665200,
+      "name": "Testing "
+    },
+    {
+      "id": 47543542,
+      "userId": 5796837,
+      "creationDate": "2024-09-30T08:15:45.000Z",
+      "datasourceType": "Survey",
+      "datasourceId": 12665350,
+      "name": "Hi there"
+    },
+    {
+      "id": 43943542,
+      "userId": 5796837,
+      "creationDate": "2024-12-01T10:00:00.000Z",
+      "datasourceType": "Survey",
+      "datasourceId": 12665400,
+      "name": "Hello from dashboard"
+    },
+    {
+      "id": 43543541,
+      "userId": 5796837,
+      "creationDate": "2024-08-15T07:25:10.000Z",
+      "datasourceType": "Survey",
+      "datasourceId": 12665500,
+      "name": "Dashboard"
     }
   ]
 }

@@ -33,7 +33,7 @@ export const Header: React.FC = () => {
       onLogout={() => console.log("Logout clicked")}
       homeLink="/home"
       dir="ltr"
-      brandColor={{ base: "#fe938c", hover: "#9d91a3" }}
+      brandColor={{ base: "#0090d1", hover: "#22b6f9" }}
     >
       <div className="flex items-center justify-end">
         <span>Custom Content</span>

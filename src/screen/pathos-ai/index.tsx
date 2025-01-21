@@ -7,11 +7,17 @@ import {
   WuModalFooter,
   WuModalHeader,
   WuSelect,
+  WuTable,
   WuTextarea,
+  WuTooltip,
 } from "@npm-questionpro/wick-ui-lib";
 import { useState } from "react";
 import useSurveyData from "../../hooks/useSurvey";
 import { IWuOption } from "@npm-questionpro/wick-ui-lib/dist/src/components/select/types/IWuSelectOptions";
+import useDashboardData from "../../hooks/dashboards";
+import { IWuTableColumnDef } from "@npm-questionpro/wick-ui-lib/dist/src/components/table/types/IWuTableColumnDef";
+import { IDashboard } from "../../models/dashboard.models";
+import { MdModeEditOutline, MdPreview, MdDelete } from "react-icons/md";
 
 export const PathosAIScreen: React.FC = (): React.JSX.Element => {
   const [isNewDashboard, setIsNewDashboard] = useState<boolean>(false);
@@ -23,6 +29,7 @@ export const PathosAIScreen: React.FC = (): React.JSX.Element => {
   const [description, setDescription] = useState("");
 
   const { surveys } = useSurveyData();
+  const { dashboard } = useDashboardData();
 
   const handleChangeName = (e: React.ChangeEvent<HTMLInputElement>) => {
     setName(e.target.value);
@@ -63,6 +70,61 @@ export const PathosAIScreen: React.FC = (): React.JSX.Element => {
     label: survey.name,
   }));
 
+  const columns: IWuTableColumnDef<IDashboard>[] = [
+    {
+      accessorKey: "",
+      header: "Name",
+      filterable: true,
+      cell: ({ row }) => {
+        return <div className="min-w-[300px]">{row.original.name}</div>;
+      },
+    },
+    {
+      accessorKey: "creationDate",
+      header: "Creation date",
+      sortable: true,
+    },
+
+    {
+      accessorKey: "",
+      header: "Action",
+      cell: ({ row }) => {
+        const handleEdit = () => {
+          console.log("Edit clicked for ID:", row.original.id);
+        };
+
+        const handleDelete = () => {
+          console.log("Delete clicked for ID:", row.original.id);
+        };
+
+        const handleView = () => {
+          console.log("View clicked for ID:", row.original.id);
+        };
+
+        return (
+          <div className="flex items-center space-x-2">
+            <WuTooltip content="View">
+              <WuButton onClick={handleView} variant="iconOnly">
+                <MdPreview />
+              </WuButton>
+            </WuTooltip>
+
+            <WuTooltip content="Edit">
+              <WuButton onClick={handleEdit} variant="iconOnly">
+                <MdModeEditOutline />
+              </WuButton>
+            </WuTooltip>
+            <WuTooltip content="Delete">
+              <WuButton onClick={handleDelete} variant="iconOnly">
+                <MdDelete />
+              </WuButton>
+            </WuTooltip>
+          </div>
+        );
+      },
+    },
+  ];
+
   return (
     <div className="p-8 flex flex-col w-full h-full">
       <div className="flex items-start h-[60px]">
@@ -85,6 +147,7 @@ export const PathosAIScreen: React.FC = (): React.JSX.Element => {
           {isNewDashboard ? "Create dashboard" : "New dashboard"}
         </WuButton>
       </div>
+      <WuTable data={dashboard} columns={columns} sort={{ enabled: true }} />
 
       <WuModal open={openModal} onOpenChange={handleClose} size="md">
         <WuModalHeader>Create pathos dashboard</WuModalHeader>
